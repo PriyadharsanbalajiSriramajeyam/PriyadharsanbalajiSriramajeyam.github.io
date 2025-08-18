@@ -7,65 +7,100 @@ tags: ComputerVision GenerativeAI
 image: img/postbanners/2024-08-07-convert-datetime2-bigint.png
 ---
 
-
-# Flow-Based Generative Models: The Math Foundation
-
-A perfect place to start is by grounding everything in the **continuity equation** and then showing how **probability paths**, **velocity fields**, and **flows** connect together. Let’s go step by step with the math.
+# Flow-Based Generative Models: 
 
 
 
-## 1. The Continuity Equation (Conservation of Probability)
 
-In probability flow models, we think of a distribution of particles (data points) moving through space over time. Probability mass must be conserved — it cannot disappear or be created. This is captured by the **continuity equation**:
+
+
+<p>
+  <img src="https://drive.google.com/uc?id=11Rmquzpulf07s06CG1OfKqNgLrnMjR6k" alt="Flow Animation Left" align="left" width="45%" />
+  <img src="https://drive.google.com/uc?id=1x1nUElOeEfXv_6_Q2IulX-1HU7A54Gl8" alt="Flow Animation Right" align="right" width="45%" />
+</p>
+
+<br clear="all"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Imagine a cloud of particles drifting through space. At first, this cloud looks like random Gaussian noise. As time flows, the cloud reshapes itself, stretching and bending, until finally it resembles the distribution of real-world data we want to generate.  
+
+How can we describe this transformation mathematically? The answer begins with the **continuity equation**.
+
+---
+
+## The Continuity Equation: Conserving Probability
+
+Probability mass behaves like an incompressible fluid — it cannot just vanish or be created from nothing. The way it moves is governed by the **continuity equation**:
 
 $$
 \frac{\partial}{\partial t} p_t(x) + \nabla_x \cdot \big( p_t(x) \, u_t(x) \big) = 0.
 $$
 
-- $p_t(x)$: probability density at time $t$.  
-- $u_t(x)$: **velocity field** that tells how points at location $x$ move at time $t$.  
-- $\nabla_x \cdot$: divergence operator.  
+Here:
+- $p_t(x)$ is the probability density at time $t$,
+- $u_t(x)$ is the **velocity field** describing how points at $x$ move,
+- $\nabla_x \cdot$ is the divergence operator, capturing how mass flows in or out of a region.
 
-👉 **Intuition**: the rate of change of probability at $x$ is exactly the negative of the probability flux leaving $x$.
+👉 Intuitively, this says: *if probability density decreases at some point $x$, it must be because the density is flowing away, carried along by the velocity field $u_t(x)$.*  
 
-This is the **conservation of probability law**, and it’s the foundation for flow-based models.
+This law of conservation is the backbone of all flow-based models.
 
+---
 
+## The Probability Path: Watching Distributions Evolve
 
-## 2. Probability Path
-
-We want to transform one distribution into another (e.g., noise → data).  
-A **probability path** is a smooth family of densities:
+Now let’s step back. We want to morph a simple distribution (like Gaussian noise) into a complicated data distribution (like natural images). To describe this morphing, we introduce the idea of a **probability path**:
 
 $$
 \{ p_t(x) \}_{t \in [0,1]}, \quad p_0(x) = p_\text{source}(x), \; p_1(x) = p_\text{target}(x).
 $$
 
-So:
+This path is just a smooth sequence of probability densities indexed by time $t$.  
 
-- At $t=0$, you have a source distribution (e.g., Gaussian noise).  
-- At $t=1$, you have the target distribution (e.g., data).  
-- For $0<t<1$, you interpolate smoothly between them.  
+- At $t=0$, the distribution is pure noise.  
+- At $t=1$, it has become the target data distribution.  
+- For values of $t$ in between, we see the intermediate “shapes” of the distribution.  
 
+Think of it as a movie of the distribution continuously warping from one form into another.
 
+---
 
-## 3. Velocity Field
+## The Velocity Field: Moving Individual Particles
 
-The **velocity field** $u_t(x)$ describes how each point in space moves over time along the probability path.
+While the probability path describes how the whole distribution changes, we also want to describe how **individual particles** move inside this evolving cloud. That’s where the **velocity field** $u_t(x)$ comes in.
 
-For a particle trajectory $X_t$:
+For a single particle trajectory $X_t$:
 
 $$
 \frac{d}{dt} X_t = u_t(X_t).
 $$
 
-So if you know the velocity field, you know exactly how samples move from $p_0$ to $p_1$.
+This equation tells us that if a particle is at position $X_t$ at time $t$, its next step is determined by the velocity field at that point.  
 
+👉 So, the velocity field is the “microscopic rule” that, when applied to all particles, produces the macroscopic evolution of the probability distribution.
 
+---
 
-## 4. Flow
+## The Flow: A Global Transformation
 
-A **flow** is the mapping that transports particles along this velocity field:
+If we follow each particle’s trajectory over time, we get a **flow map**:
 
 $$
 \Phi_t : x_0 \mapsto x_t,
@@ -77,36 +112,45 @@ $$
 \frac{d}{dt} x_t = u_t(x_t), \quad x_0 \sim p_0.
 $$
 
-- The **flow of particles** generated by the velocity field induces the **flow of probability distributions** $p_t$.  
-- Together, the continuity equation guarantees that when particles move via $u_t$, the probability density evolves exactly as $p_t$.
+This map $\Phi_t$ tells us how to transport an initial sample $x_0$ (from the source distribution) into a new point $x_t$ at time $t$.  
 
+- The **flow of particles** created by this map gives rise to  
+- The **flow of probability densities** $p_t(x)$ described earlier.  
 
+The continuity equation ensures the two views (microscopic particles and macroscopic densities) stay perfectly in sync.
 
-## 5. Interconnection
+---
 
-Putting it all together:
+## Putting It All Together
 
-1. **Continuity equation**
+Here’s the full picture:
 
+1. The **continuity equation** guarantees probability mass is conserved:
    $$
-   \frac{\partial}{\partial t} p_t(x) = -\nabla_x \cdot (p_t(x) \, u_t(x)).
+   \frac{\partial}{\partial t} p_t(x) = -\nabla_x \cdot \big(p_t(x) u_t(x)\big).
    $$
 
-2. **Trajectory definition**
-
+2. The **velocity field** $u_t(x)$ determines how individual samples move:
    $$
    \frac{d}{dt} X_t = u_t(X_t).
    $$
 
-3. **Probability path consistency**
-
+3. Following these trajectories defines the **flow** $\Phi_t$ that maps the source distribution into the target:
    $$
-   \{X_t\}_{t\in[0,1]} \;\;\Rightarrow\;\; \{p_t(x)\}_{t\in[0,1]}.
+   \{X_t\}_{t \in [0,1]} \;\;\Rightarrow\;\; \{p_t(x)\}_{t \in [0,1]}.
    $$
 
-**Interpretation:**
+In simple words:  
+- The **probability path** shows how distributions change in time.  
+- The **velocity field** shows how points move in time.  
+- The **flow** is the overall transformation carrying one distribution into another.  
+- And the **continuity equation** is the glue that ensures consistency between them.
 
-- The **probability path** says “how densities change in time.”  
-- The **velocity field** says “how individual points move in time.”  
-- The **flow** is the global transformation mapping source samples to target samples.  
-- The **continuity equation** mathematically links them so that if each particle follows $u_t(x)$, the density changes consistently as $p_t(x)$.
+---
+
+With this story, we’ve built the mathematical foundation for flow-based generative models: they are nothing more than learning the right velocity field $u_t(x)$ so that the flow transforms Gaussian noise into real data.
+
+
+
+
+## Code Part
