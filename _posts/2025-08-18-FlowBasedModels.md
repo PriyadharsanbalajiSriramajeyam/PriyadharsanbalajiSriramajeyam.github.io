@@ -7,6 +7,7 @@ tags: ComputerVision GenerativeAI
 image: img/postbanners/2024-08-07-convert-datetime2-bigint.png
 ---
 
+
 Perfect place to start a blog on **flow-based generative models**: by grounding everything in the **continuity equation** and then showing how **probability paths**, **velocity fields**, and **flows** connect together. Let’s go step by step with the math.
 
 
@@ -108,10 +109,3 @@ Putting it all together:
 * The **flow** is the global transformation mapping source samples to target samples.
 * The **continuity equation** mathematically links them so that if each particle follows $u_t(x)$, the density changes consistently as $p_t(x)$.
 
-
-
-👉 This framework is exactly what’s used in **flow matching** and **probability flow ODEs**: you train a neural net to approximate $u_t(x)$, then solve the ODE to map Gaussian noise into real data.
-
-
-
-Would you like me to now **draw the connection to generative modeling** (e.g., how this becomes “train neural nets to approximate $u_t(x)$ via flow matching loss”), or keep it purely mathematical for now?
