@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Flow Models
-description:
-date: 2025-08-18 16:40:16
+description: A comprehensive guide to understanding flow-based generative models, from continuity equations to probability paths and velocity fields.
+date: 2025-08-11 16:40:16
 tags: ComputerVision GenerativeAI
 image: img/postbanners/2024-08-07-convert-datetime2-bigint.png
 ---
