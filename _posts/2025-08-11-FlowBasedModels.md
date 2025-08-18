@@ -12,21 +12,27 @@ image: img/postbanners/2024-08-07-convert-datetime2-bigint.png
 
 
 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <a href="https://drive.google.com/file/d/11Rmquzpulf07s06CG1OfKqNgLrnMjR6k/view?usp=sharing">
+        <img src="https://drive.google.com/thumbnail?id=11Rmquzpulf07s06CG1OfKqNgLrnMjR6k&sz=w1000" 
+             alt="Flow Animation Left" style="max-width: 100%; height: auto; width: 450px;">
+    </a>
+    <a href="https://drive.google.com/file/d/1x1nUElOeEfXv_6_Q2IulX-1HU7A54Gl8/view?usp=sharing">
+        <img src="https://drive.google.com/thumbnail?id=1x1nUElOeEfXv_6_Q2IulX-1HU7A54Gl8&sz=w1000" 
+             alt="Flow Animation Right" style="max-width: 100%; height: auto; width: 450px;">
+    </a>
+</div>
 
 
-<p>
-  <img src="https://drive.google.com/uc?id=11Rmquzpulf07s06CG1OfKqNgLrnMjR6k" alt="Flow Animation Left" align="left" width="45%" />
-  <img src="https://drive.google.com/uc?id=1x1nUElOeEfXv_6_Q2IulX-1HU7A54Gl8" alt="Flow Animation Right" align="right" width="45%" />
-</p>
-
-<br clear="all"/>
 
 
 
-
-
-
-
+<!-- <div align="center">
+    <a href="https://drive.google.com/file/d/1repEITw0AkNDYHVH489ikjR78YQ6QZXE/view?usp=sharing">
+        <img src="https://drive.google.com/thumbnail?id=1repEITw0AkNDYHVH489ikjR78YQ6QZXE&sz=w1000" alt="ECCV Workshop Picture" style="max-width: 100%; height: auto;">
+    </a>
+</div>
+ -->
 
 
 
