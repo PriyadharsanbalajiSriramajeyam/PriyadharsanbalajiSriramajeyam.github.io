@@ -4,47 +4,15 @@ title: Welcome
 ---
 
 <div class="intro-page">
-  <div class="intro-header">
-    <h1 class="intro-name">{{ site.data.resume.header.name }}</h1>
-    <p class="intro-title">{{ site.data.resume.header.suffix }} • {{ site.data.resume.header.current_title }}</p>
-  </div>
-
   <div class="intro-content">
-    <div class="intro-text">
-      <p class="intro-description">{{ site.data.resume.header.intro }}</p>
-    </div>
+    <div class="profile-section">
+      <img src="/img/profile_pic.jpg" alt="Profile Picture" class="profile-image">
+      <div class="profile-text">
+        <p>I am working as machine learning engineer at Immerso.ai. My work over here is to do foundational models for text to image and video generation at scale for movie generation.</p>
 
-    <div class="intro-highlights">
-      <div class="highlight-section">
-        <h2>📍 Current Role</h2>
-        {% assign current_exp = site.data.experience[0] %}
-        {% assign current_pos = current_exp.positions[0] %}
-        <p><strong>{{ current_pos.title }}</strong> at {{ current_exp.company }}</p>
-        <p class="highlight-summary">{{ current_pos.summary }}</p>
-      </div>
+        <p>I have spent my MS at IIT Madras working under kaushik mitra. I have been working on 3d and 2d in the fields of image generation and restoration.</p>
 
-      <div class="highlight-section">
-        <h2>🎓 Education</h2>
-        {% assign latest_edu = site.data.education[0] %}
-        <p><strong>{{ latest_edu.degree }}</strong></p>
-        <p>{{ latest_edu.uni }} • {{ latest_edu.year }}</p>
-        <p class="highlight-summary">{{ latest_edu.summary }}</p>
-      </div>
-
-      <div class="highlight-section">
-        <h2>💼 Key Skills</h2>
-        <ul class="skills-list">
-          {% for skill in site.data.skills limit:3 %}
-            <li>
-              <strong>{{ skill.skill }}:</strong>
-              {% if skill.description %}
-                {{ skill.description | strip_html | truncatewords: 20 }}
-              {% elsif skill.list %}
-                {{ skill.list | join: " • " }}
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+        <p>I hate to sociualize but I do put my efforts to make new friends who are like minded, if you are interested in computer vision, computational imaging, math, cats and music. A cheat way is to share insta reels which are funny.</p>
       </div>
     </div>
 
@@ -77,84 +45,38 @@ title: Welcome
 
 <style>
 .intro-page {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
-.intro-header {
-  text-align: center;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 2px solid #e8e8e8;
-}
-
-.intro-name {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-.intro-title {
-  font-size: 1.2rem;
-  color: #666;
-  margin: 0;
-}
-
 .intro-content {
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
-.intro-text {
-  margin-bottom: 3rem;
-}
-
-.intro-description {
-  font-size: 1.1rem;
-  color: #444;
-  text-align: justify;
-}
-
-.intro-highlights {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+.profile-section {
+  display: flex;
   gap: 2rem;
+  align-items: flex-start;
   margin-bottom: 3rem;
 }
 
-.highlight-section {
-  background: #f8f9fa;
-  padding: 1.5rem;
+.profile-image {
+  width: 250px;
+  height: auto;
   border-radius: 8px;
-  border-left: 4px solid #007acc;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.highlight-section h2 {
-  font-size: 1.3rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: #333;
+.profile-text {
+  flex: 1;
+  font-size: 1rem;
+  color: #444;
 }
 
-.highlight-section p {
-  margin: 0.5rem 0;
-  color: #555;
-}
-
-.highlight-summary {
-  font-size: 0.95rem;
-  color: #666;
-  font-style: italic;
-}
-
-.skills-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.skills-list li {
-  margin-bottom: 0.8rem;
-  color: #555;
+.profile-text p {
+  margin-bottom: 1.2rem;
 }
 
 .intro-links, .intro-social {
@@ -165,6 +87,7 @@ title: Welcome
 .intro-links h2, .intro-social h2 {
   margin-bottom: 1.5rem;
   color: #333;
+  font-size: 1.4rem;
 }
 
 .link-buttons {
@@ -176,17 +99,17 @@ title: Welcome
 
 .intro-link-btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #007acc;
+  padding: 0.6rem 1.2rem;
+  background: #555;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+  font-weight: normal;
 }
 
 .intro-link-btn:hover {
-  background: #005a9e;
+  background: #333;
 }
 
 .social-links {
@@ -197,24 +120,25 @@ title: Welcome
 }
 
 .social-links a {
-  color: #007acc;
+  color: #555;
   text-decoration: none;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
+  font-size: 1rem;
+  transition: color 0.2s ease;
 }
 
 .social-links a:hover {
-  color: #005a9e;
+  color: #333;
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-  .intro-name {
-    font-size: 2rem;
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
   }
   
-  .intro-highlights {
-    grid-template-columns: 1fr;
+  .profile-image {
+    width: 200px;
   }
   
   .link-buttons {
@@ -223,7 +147,7 @@ title: Welcome
   }
   
   .intro-link-btn {
-    width: 200px;
+    width: 180px;
   }
 }
 </style>
