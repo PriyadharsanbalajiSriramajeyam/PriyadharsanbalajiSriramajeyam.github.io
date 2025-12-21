@@ -8,11 +8,11 @@ title: Welcome
     <div class="profile-section">
       <img src="/img/profile_pic.jpg" alt="Profile Picture" class="profile-image">
       <div class="profile-text">
-        <p>I am working as machine learning engineer at Immerso.ai. My work over here is to do foundational models for text to image and video generation at scale for movie generation.</p>
+        <p>I'm a Machine Learning Engineer at Immerso.ai, where I work on foundational models for large-scale text-to-image and text-to-video generation, with a focus on cinematic movie creation.</p>
 
-        <p>I have spent my MS at IIT Madras working under kaushik mitra. I have been working on 3d and 2d in the fields of image generation and restoration.</p>
+        <p>I completed my Master's at IIT Madras, working under <a href="https://www.ee.iitm.ac.in/kmitra/" target="_blank" rel="noopener">Prof. Kaushik Mitra</a>, where my research spanned 2D and 3D vision, particularly in image generation and restoration.</p>
 
-        <p>I hate to sociualize but I do put my efforts to make new friends who are like minded, if you are interested in computer vision, computational imaging, math, cats and music. A cheat way is to share insta reels which are funny.</p>
+        <p>I'm not big on socializing, but I do enjoy connecting with like-minded people—especially those into computer vision, computational imaging, math, cats, and music. Bonus points if you communicate via funny Instagram reels—that's the fastest way in.</p>
       </div>
     </div>
 
@@ -75,6 +75,15 @@ title: Welcome
   color: #444;
 }
 
+.profile-text a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.profile-text a:hover {
+  text-decoration: underline;
+}
+
 .profile-text p {
   margin-bottom: 1.2rem;
 }
@@ -101,11 +110,18 @@ title: Welcome
   display: inline-block;
   padding: 0.6rem 1.2rem;
   background: #555;
-  color: white;
+  color: white !important;
   text-decoration: none;
   border-radius: 4px;
   transition: background 0.2s ease;
   font-weight: normal;
+}
+
+.intro-link-btn:link,
+.intro-link-btn:visited,
+.intro-link-btn:hover,
+.intro-link-btn:active {
+  color: white !important;
 }
 
 .intro-link-btn:hover {
