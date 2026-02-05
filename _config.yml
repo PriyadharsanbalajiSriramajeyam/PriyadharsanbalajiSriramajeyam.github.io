@@ -3,7 +3,7 @@ theme: minima
 title: Teja's Blog
 author: K Sai Sri Teja
 email: kuppasaisriteja@gmail.com
-url: https://saisriteja.github.io
+url: https://PriyadharsanbalajiSriramajeyam.github.io
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
