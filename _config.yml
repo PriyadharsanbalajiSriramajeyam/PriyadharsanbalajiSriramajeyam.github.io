@@ -2,7 +2,7 @@ theme: minima
 
 title: Priyadharsan's Blog
 author: Priyadharsan Balaji Sriramajeyam
-email: [YOUR_EMAIL_HERE]
+email: "[YOUR_EMAIL_HERE]"
 url: https://PriyadharsanbalajiSriramajeyam.github.io
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
@@ -14,7 +14,7 @@ description: >
 # Minima variables
 twitter_username: 
 github_username: PriyadharsanbalajiSriramajeyam
-linkedin_username: [YOUR_LINKEDIN_HERE]
+linkedin_username: "[YOUR_LINKEDIN_HERE]"
 instagram_username: priyadharsanbalaji
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -30,7 +30,7 @@ show_excerpts: false
 # Used by simple links page
 social-links:
   Resume: /resume
-  LinkedIn: https://linkedin.com/in/[YOUR_LINKEDIN_HERE]
+  LinkedIn: "https://linkedin.com/in/[YOUR_LINKEDIN_HERE]"
   GitHub: https://github.com/PriyadharsanbalajiSriramajeyam
   Website: /
 
@@ -41,7 +41,7 @@ twitter:
 social:
   name: Priyadharsan Balaji Sriramajeyam
   links:
-    - https://linkedin.com/in/[YOUR_LINKEDIN_HERE]
+    - "https://linkedin.com/in/[YOUR_LINKEDIN_HERE]"
     - https://github.com/PriyadharsanbalajiSriramajeyam
 
 # plugin: jekyll-titles-from-headings
