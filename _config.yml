@@ -3,7 +3,7 @@ theme: minima
 title: Priyadharsan's Blog
 author: Priyadharsan Balaji Sriramajeyam
 email: "ed22b060@smail.iitm.ac.in"
-mobile: "7373737220"
+mobile: ""
 url: https://PriyadharsanbalajiSriramajeyam.github.io
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
