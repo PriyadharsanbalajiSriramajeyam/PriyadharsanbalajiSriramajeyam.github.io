@@ -42,30 +42,30 @@
 #     - Visual Studio
 #     - VS Code
 
-- skill: Deep Learning Frameworks and Libraries
-  description: >
-    Experienced with major deep learning and machine learning frameworks including
-    PyTorch, TensorFlow, Keras, Scikit-learn, and WandB, alongside scientific computing libraries
-    like Scipy, Numpy, OpenCV, and Pandas for building, training, and evaluating models.
-
-- skill: Developer Tools
-  description: >
-    Proficient in using VSCode, Jupyter Notebook, Google Colab, and version control systems
-    like GitHub, GitLab for code development, collaboration, and experimentation tracking.
-
-- skill: Platforms and Technologies
-  list:
-    - Linux (Ubuntu)
-    - AWS Cloud Services
-    - Docker
-    - ROS (Robot Operating System)
-    - Pybullet
-    - NVIDIA DeepStream
-
-- skill: Programming Languages
-  description: >
-    Strong programming expertise in Python, with experience in building production-grade deep learning
-    pipelines, automation scripts, and backend services.
+# - skill: Deep Learning Frameworks and Libraries
+#   description: >
+#     Experienced with major deep learning and machine learning frameworks including
+#     PyTorch, TensorFlow, Keras, Scikit-learn, and WandB, alongside scientific computing libraries
+#     like Scipy, Numpy, OpenCV, and Pandas for building, training, and evaluating models.
+# 
+# - skill: Developer Tools
+#   description: >
+#     Proficient in using VSCode, Jupyter Notebook, Google Colab, and version control systems
+#     like GitHub, GitLab for code development, collaboration, and experimentation tracking.
+# 
+# - skill: Platforms and Technologies
+#   list:
+#     - Linux (Ubuntu)
+#     - AWS Cloud Services
+#     - Docker
+#     - ROS (Robot Operating System)
+#     - Pybullet
+#     - NVIDIA DeepStream
+# 
+# - skill: Programming Languages
+#   description: >
+#     Strong programming expertise in Python, with experience in building production-grade deep learning
+#     pipelines, automation scripts, and backend services.
 
 # HCHB to add:
 

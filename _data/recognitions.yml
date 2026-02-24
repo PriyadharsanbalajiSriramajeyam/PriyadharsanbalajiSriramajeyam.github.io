@@ -1,12 +1,11 @@
-- award: "KUKA Robotics Challenge 2021 - World Top 5 Team"
-  organization: KUKA
-  year: 2021
+- award: "National Winner - Shaastra’s Biomimicry Design Hackathon"
+  organization: IIT Madras Shaastra
+  year: [Year]
   summary: >
-    Selected as one of the top 5 teams globally (Team Aroki) in the prestigious KUKA Robotics Challenge 2021.
+    Earned recognition in the national-level Biomimicry Design Hackathon for innovative design solutions.
 
-- award: "MIPI Flare Removal Challenge - Top 5 (CVPR 2024)"
-  organization: CVPR
+- award: "Class of 2024 Millennium Fellow"
+  organization: Millennium Campus Network (MCN) and United Nations Academic Impact (UNAI)
   year: 2024
   summary: >
-    Achieved Top 5 ranking in the MIPI Flare Removal Challenge at CVPR 2024, recognizing contributions
-    in nighttime video flare removal research.
+    Selected for the worldwide leadership development program for social impact.

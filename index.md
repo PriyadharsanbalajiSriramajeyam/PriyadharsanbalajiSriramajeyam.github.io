@@ -8,11 +8,11 @@ title: Welcome
     <div class="profile-section">
       <img src="/img/profile_pic.jpg" alt="Profile Picture" class="profile-image">
       <div class="profile-text">
-        <p>I'm a Machine Learning Engineer at Immerso.ai, where I work on foundational models for large-scale text-to-image and text-to-video generation, with a focus on cinematic movie creation.</p>
+        <p>I'm Priyadharsan Balaji S, a dual degree student at the Indian Institute of Technology Madras, pursuing a B.Tech in Engineering Design and an M.Tech in Automotive Engineering.</p>
 
-        <p>I completed my Master's at IIT Madras, working under <a href="https://www.ee.iitm.ac.in/kmitra/" target="_blank" rel="noopener">Prof. Kaushik Mitra</a>, where my research spanned 2D and 3D vision, particularly in image generation and restoration.</p>
+        <p>I have experience in AI/ML development, automotive design, and computational modeling, with projects spanning deep learning, large language models, and product design. I've earned recognition in national competitions such as Shaastra’s Biomimicry Design Hackathon and have contributed to impactful self-driven innovations. I am also a 2024 Millennium Fellow.</p>
 
-        <p>I'm not big on socializing, but I do enjoy connecting with like-minded people—especially those into computer vision, computational imaging, math, cats, and music. Bonus points if you communicate via funny Instagram reels—that's the fastest way in.</p>
+        <p>Passionate about technology for social good, I aim to apply my engineering expertise toward sustainable development and global problem-solving.</p>
       </div>
     </div>
 

@@ -1,39 +1,39 @@
-- project: 3D Reconstruction from SPAD Camera Data
-  role: Research Collaborator
-  duration: Jun, 2024 — Present
-  url: "/"
-  description: >
-    Collaborative project with Prof. Ashwin Sankaranarayanan (CMU) focusing on leveraging radiance fields
-    for high-quality 3D reconstructions using SPAD camera datasets as priors.
-
-- project: Night Time Video Flare Removal
-  role: Research Assistant
-  duration: May, 2024 — Jul, 2024
-  url: "/"
-  description: >
-    Synthesized video datasets using traditional and deep learning-based methods.
-    Experimented with multiple video-based architectures to tackle nighttime flare removal challenges.
-
-- project: Virtual Tryons for Indic Clothing
-  role: Research Assistant
-  duration: Apr, 2024 — Jul, 2024
-  url: "/"
-  description: >
-    Automated dataset scraping, refinement, and annotation. 
-    Developed GAN and diffusion-based models for virtual try-on applications specific to Indian clothing.
-
-- project: Speech Disfluency Detection Using Deep Learning
-  role: Research Assistant
-  duration: Sep, 2020 — Dec, 2020
-  url: "/"
-  description: >
-    Created a Heroku-deployed website for audio data collection. 
-    Built a custom RESNET model trained on spectrograms for detecting filler words and repetitions with 75% accuracy.
-
-- project: Sign Language Video Generator using GAN
-  role: Deep Learning Engineer
-  duration: May, 2020 — Aug, 2020
-  url: "/"
-  description: >
-    Developed a GAN-based deep learning model for generating pose estimation-based sign language videos.
-    Project was part of a government-sponsored initiative with ₹4 million (~40 lakhs) in funding.
+# - project: 3D Reconstruction from SPAD Camera Data
+#   role: Research Collaborator
+#   duration: Jun, 2024 — Present
+#   url: "/"
+#   description: >
+#     Collaborative project with Prof. Ashwin Sankaranarayanan (CMU) focusing on leveraging radiance fields
+#     for high-quality 3D reconstructions using SPAD camera datasets as priors.
+# 
+# - project: Night Time Video Flare Removal
+#   role: Research Assistant
+#   duration: May, 2024 — Jul, 2024
+#   url: "/"
+#   description: >
+#     Synthesized video datasets using traditional and deep learning-based methods.
+#     Experimented with multiple video-based architectures to tackle nighttime flare removal challenges.
+# 
+# - project: Virtual Tryons for Indic Clothing
+#   role: Research Assistant
+#   duration: Apr, 2024 — Jul, 2024
+#   url: "/"
+#   description: >
+#     Automated dataset scraping, refinement, and annotation. 
+#     Developed GAN and diffusion-based models for virtual try-on applications specific to Indian clothing.
+# 
+# - project: Speech Disfluency Detection Using Deep Learning
+#   role: Research Assistant
+#   duration: Sep, 2020 — Dec, 2020
+#   url: "/"
+#   description: >
+#     Created a Heroku-deployed website for audio data collection. 
+#     Built a custom RESNET model trained on spectrograms for detecting filler words and repetitions with 75% accuracy.
+# 
+# - project: Sign Language Video Generator using GAN
+#   role: Deep Learning Engineer
+#   duration: May, 2020 — Aug, 2020
+#   url: "/"
+#   description: >
+#     Developed a GAN-based deep learning model for generating pose estimation-based sign language videos.
+#     Project was part of a government-sponsored initiative with ₹4 million (~40 lakhs) in funding.

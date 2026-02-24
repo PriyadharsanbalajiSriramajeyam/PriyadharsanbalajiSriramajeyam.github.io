@@ -1,8 +1,8 @@
 theme: minima
 
-title: Teja's Blog
-author: K Sai Sri Teja
-email: kuppasaisriteja@gmail.com
+title: Priyadharsan's Blog
+author: Priyadharsan Balaji Sriramajeyam
+email: [YOUR_EMAIL_HERE]
 url: https://PriyadharsanbalajiSriramajeyam.github.io
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
@@ -12,9 +12,10 @@ description: >
   My first blog. Probably no one else will ever read it, but oh well.
 
 # Minima variables
-twitter_username: saisriteja
-github_username: saisriteja
-linkedin_username: saisriteja
+twitter_username: 
+github_username: PriyadharsanbalajiSriramajeyam
+linkedin_username: [YOUR_LINKEDIN_HERE]
+instagram_username: priyadharsanbalaji
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -29,8 +30,8 @@ show_excerpts: false
 # Used by simple links page
 social-links:
   Resume: /resume
-  LinkedIn: https://linkedin.com/in/saisriteja
-  GitHub: https://github.com/saisriteja
+  LinkedIn: https://linkedin.com/in/[YOUR_LINKEDIN_HERE]
+  GitHub: https://github.com/PriyadharsanbalajiSriramajeyam
   Website: /
 
 # plugin: jekyll-seo-tag
@@ -38,10 +39,10 @@ twitter:
   username: chad_baldwin
   card: summary_large_image
 social:
-  name: Chad Baldwin
+  name: Priyadharsan Balaji Sriramajeyam
   links:
-    - https://linkedin.com/in/saisriteja
-    - https://github.com/saisriteja
+    - https://linkedin.com/in/[YOUR_LINKEDIN_HERE]
+    - https://github.com/PriyadharsanbalajiSriramajeyam
 
 # plugin: jekyll-titles-from-headings
 titles_from_headings:
@@ -72,7 +73,7 @@ code_block_max_height: 500px
 home_post_limit: 5
 
 # The github repo that is to be used for looking up comments
-comments_repo: chadbaldwin/chadbaldwin.github.io
+comments_repo: PriyadharsanbalajiSriramajeyam/PriyadharsanbalajiSriramajeyam.github.io
 
 defaults:
   - scope:

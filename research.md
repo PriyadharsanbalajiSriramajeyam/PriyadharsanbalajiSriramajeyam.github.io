@@ -6,6 +6,7 @@ description: Research Papers over the years
 
 # Research Publications
 
+<!--
 ## 2025
 - **FlareGS: 4D Flare Removal using Gaussian Splatting for Urban Scenes**  
   *Mayank Chandak, **K. Sai Sri Teja**, Rahul Gopi Raju Matta, Vinayak Gupta, Kaushik Mitra*  
@@ -50,5 +51,4 @@ description: Research Papers over the years
 - **Emotion Recognition from Speech Using Perceptual Features and Convolutional Neural Networks**  
   *Revathi A., Nagakrishnan R., Vashista D.V., **K. Sai Sri Teja**, Sasikaladevi N.*  
   _Advances in Communication Systems and Networks: Select Proceedings of ComNet 2019, Volume 656, p.355_
-
-
+-->

@@ -1,36 +1,34 @@
 theme: default
 header:
-  name: K Sai Sri Teja
-  suffix: MS in EE (CV-AI)
+  name: Priyadharsan Balaji S
+  suffix: IIT Madras
   display_contact_info: true
-  current_title: Deep Learning Engineer - II
+  current_title: AI/ML Developer & Automotive Engineer
   intro: >
-    Research-oriented and versatile Deep Learning Engineer specializing in Computer Vision and AI. 
-    Proficient in building end-to-end deep learning pipelines, model optimization, real-time deployment, 
-    and image/video generation tasks. Experienced in the software development life cycle (SDLC) with exposure 
-    to Agile methodologies. Passionate about research-driven innovation, working efficiently both independently 
-    and collaboratively in dynamic environments.
-
-contact:
-  #address: Chennai, Tamil Nadu, India
-  #phone:
-  email: kuppasaisriteja@gmail.com
-sections:
-  experience: true
-  education: true
-  projects: true
-  skills: true
-  recognition: true
-  associations: false
-  interests: true
-  links: true
-  social_links: false
-social:
-  Website: /
-  GitHub: https://github.com/chadbaldwin
-  Twitter: https://twitter.com/chad_baldwin
-  #Dribbble:  https://dribbble.com/chadbaldwin
-  #FaceBook:  https://facebook.com/iamchadbaldwin
-  LinkedIn: https://linkedin.com/in/chadbaldwin
-  #Instagram: https://instagram.com/chad_baldwin
-  #Medium:    https://medium.com/@chad-baldwin
+    A dual degree student at the Indian Institute of Technology Madras, pursuing a B.Tech in Engineering Design and an M.Tech in Automotive Engineering. 
+    Experienced in AI/ML development, automotive design, and computational modeling, with projects spanning deep learning, large language models, and product design. 
+    Passionate about technology for social good and sustainable development.
+# 
+# contact:
+#   #address: Chennai, Tamil Nadu, India
+#   #phone:
+#   email: kuppasaisriteja@gmail.com
+# sections:
+#   experience: true
+#   education: true
+#   projects: true
+#   skills: true
+#   recognition: true
+#   associations: false
+#   interests: true
+#   links: true
+#   social_links: false
+# social:
+#   Website: /
+#   GitHub: https://github.com/chadbaldwin
+#   Twitter: https://twitter.com/chad_baldwin
+#   #Dribbble:  https://dribbble.com/chadbaldwin
+#   #FaceBook:  https://facebook.com/iamchadbaldwin
+#   LinkedIn: https://linkedin.com/in/chadbaldwin
+#   #Instagram: https://instagram.com/chad_baldwin
+#   #Medium:    https://medium.com/@chad-baldwin
