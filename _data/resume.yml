@@ -16,10 +16,10 @@ sections:
   experience: true
   education: true
   projects: true
-  skills: true
+  skills: false
   recognition: true
   associations: false
-  interests: true
+  interests: false
   links: true
   social_links: true
 social:
