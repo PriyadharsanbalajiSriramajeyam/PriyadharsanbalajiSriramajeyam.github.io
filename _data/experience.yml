@@ -1,17 +1,14 @@
-# - company: "Detect Technologies Pvt Ltd"
-#   summary: "Leading provider of AI-driven solutions for industrial automation, specializing in surveillance, inspection, and monitoring technologies."
-#   logo: "/img/companylogos/detect.png"
-#   url: "https://www.detecttechnologies.com/"
+[]
+# - company: Immerso.ai
+#   summary: "Machine Learning Engineer at Immerso.ai"
+#   logo: "/img/companylogos/immerso.png"
+#   url: "https://immerso.ai"
 #   positions:
-#     - title: "Deep Learning Engineer - II"
-#       startdate: 2022-07-01
-#       enddate: 2025-01-10
-#       summary: "Developed and tested deep learning models across Classification, Detection, and Segmentation tasks, achieving a system-wide accuracy of 90%. Specialized in real-time deployment, synthetic data generation, and automation tools to enhance training and operational efficiency."
+#     - title: Deep Learning Engineer II
+#       startdate: 2024-04-01
+#       summary: "Working on state-of-the-art text-to-image and text-to-video diffusion models."
 #       projects:
-#         - "Established and managed a DLOps pipeline using Nvidia DeepStream for scalable real-time model deployment."
-#         - "Implemented data quantization techniques to halve model training time while maintaining accuracy, enabling 2x faster experimentation cycles."
-#         - "Utilized diffusion models and GANs for synthetic data generation, improving model performance significantly."
-#         - "Developed an auto annotation tool that reduced labeling time for detection and classification tasks by 75%."
+#         - "Developed high-quality image and video generation pipelines using stable diffusion and custom fine-tuning."
 #         - "Optimized image restoration models (NAFNET, UFormer, DiffIR) to enhance image quality and ground truth data for internal evaluations."
 #         - "Integrated Vision-Language Models (LLama 3.2, LLava, Molmo) with LLMs to build a custom Fishbone Analysis system for Root Cause Analysis (RCA) and Correction and Protection Analysis (CPA) using multi-modal data."
 # 
@@ -20,26 +17,10 @@
 #   logo: "/img/companylogos/htic.png"
 #   url: "https://htic.iitm.ac.in/"
 #   positions:
-#     - title: "Project Associate"
-#       startdate: 2021-02-01
-#       enddate: 2022-06-30
-#       summary: "Focused on robotics applications for medical surgery, including path planning, kinematics, and real-time system integration with industrial and collaborative robots."
+#     - title: Project Associate
+#       startdate: 2023-01-01
+#       enddate: 2024-03-31
+#       summary: "Worked on Computer Vision projects for surgical navigation and assistance."
 #       projects:
-#         - "Developed a complete software package in Python for robot-assisted needle-based Spine Surgery including kinematics, path planning, singularity detection, and collision avoidance."
-#         - "Worked with KUKA industrial robots and Han’s Elfin collaborative robots, integrating real-time systems for medical applications."
-#         - "Gained experience with ROS (Robot Operating System) for robotic software development and Intel RealSense cameras for depth sensing and 3D scanning."
-# 
-# # - company: "Independent Research Projects"
-# #   summary: "Research collaborations and academic projects focused on computer vision, robotics, virtual try-ons, and video enhancement technologies."
-# #   logo: "/img/companylogos/research.png"
-# #   url: "#"
-# #   positions:
-# #     - title: "Research Collaborator / Engineer"
-# #       startdate: 2024-04-01
-# #       summary: "Engaged in multiple research collaborations with leading professors on projects spanning 3D reconstruction, video enhancement, and virtual try-on for Indian clothing."
-# #       projects:
-# #         - "3D Reconstruction from SPAD Camera Data (with Prof. Ashwin Sankaranarayanan, CMU): Leveraging radiance fields for high-quality 3D reconstructions using SPAD datasets."
-# #         - "Night Time Video Flare Removal (with Prof. Kaushik Mitra): Developed synthetic datasets and experimented with deep learning architectures for flare removal."
-# #         - "Virtual Tryons for Indic Clothing (with Prof. Kaushik Mitra): Scraped and annotated datasets; developed GAN and diffusion models tailored for Indian apparel."
-# #         - "Speech Disfluency Detection Using Deep Learning (with Prof. A Revathi): Built a web platform for audio data collection; designed and trained a custom ResNet model using spectrograms."
-# #         - "Sign Language Video Generator Using GAN (with Prof. R Elakkiya): Developed GAN-based models to generate pose estimation videos for Indian Sign Language translation."
+#         - "Engineered a robust multi-camera surveillance and activity recognition system for high-security environments, integrating multiple viewpoints into a unified 3D security mesh."
+#         - "Developed real-time video summarization techniques to enhance surveillance monitoring efficiency."
