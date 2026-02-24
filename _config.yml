@@ -2,14 +2,15 @@ theme: minima
 
 title: Priyadharsan's Blog
 author: Priyadharsan Balaji Sriramajeyam
-email: "[YOUR_EMAIL_HERE]"
+email: "ed22b060@smail.iitm.ac.in"
+mobile: "7373737220"
 url: https://PriyadharsanbalajiSriramajeyam.github.io
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 description: >
-  My first blog. Probably no one else will ever read it, but oh well.
+  Priyadharsan Balaji S's personal blog.
 
 # Minima variables
 twitter_username: 

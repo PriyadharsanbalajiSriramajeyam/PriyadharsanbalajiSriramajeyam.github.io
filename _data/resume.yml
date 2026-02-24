@@ -1,34 +1,28 @@
 theme: default
 header:
-  name: Priyadharsan Balaji S
-  suffix: IIT Madras
+  name: "Priyadharsan Balaji S"
+  suffix: "IIT Madras"
   display_contact_info: true
-  current_title: AI/ML Developer & Automotive Engineer
+  current_title: "AI/ML Developer & Automotive Engineer"
   intro: >
     A dual degree student at the Indian Institute of Technology Madras, pursuing a B.Tech in Engineering Design and an M.Tech in Automotive Engineering. 
     Experienced in AI/ML development, automotive design, and computational modeling, with projects spanning deep learning, large language models, and product design. 
     Passionate about technology for social good and sustainable development.
-# 
-# contact:
-#   #address: Chennai, Tamil Nadu, India
-#   #phone:
-#   email: kuppasaisriteja@gmail.com
-# sections:
-#   experience: true
-#   education: true
-#   projects: true
-#   skills: true
-#   recognition: true
-#   associations: false
-#   interests: true
-#   links: true
-#   social_links: false
-# social:
-#   Website: /
-#   GitHub: https://github.com/chadbaldwin
-#   Twitter: https://twitter.com/chad_baldwin
-#   #Dribbble:  https://dribbble.com/chadbaldwin
-#   #FaceBook:  https://facebook.com/iamchadbaldwin
-#   LinkedIn: https://linkedin.com/in/chadbaldwin
-#   #Instagram: https://instagram.com/chad_baldwin
-#   #Medium:    https://medium.com/@chad-baldwin
+contact:
+  email: "ed22b060@smail.iitm.ac.in"
+  phone: "7373737220"
+  address: "IIT Madras (ED22B060), graduation date: July 2027"
+sections:
+  experience: true
+  education: true
+  projects: true
+  skills: true
+  recognition: true
+  associations: false
+  interests: true
+  links: true
+  social_links: true
+social:
+  Website: /
+  GitHub: https://github.com/PriyadharsanbalajiSriramajeyam
+  LinkedIn: https://linkedin.com/in/priyadharsanbalaji

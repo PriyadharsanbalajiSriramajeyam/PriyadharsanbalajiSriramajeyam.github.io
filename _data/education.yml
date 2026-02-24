@@ -1,15 +1,14 @@
-- degree: Dual Degree (B.Tech in Engineering Design & M.Tech in Automotive Engineering)
-  uni: Indian Institute of Technology Madras
-  year: "[Your Year Range]"
-  summary: >
-    Developing expertise in AI/ML development, automotive design, and computational modeling.
+- degree: "Dual Degree (B.Tech in Engineering Design & M.Tech in Automotive Engineering)"
+  uni: "Indian Institute of Technology Madras"
+  year: "2022 — 2027"
+  summary: "CGPA: 7.37. Graduation: July 2027."
 
-#- degree: High School Diploma
-#  uni: Fountain Valley High School
-#  year: 2008
-#  awards:
-#    - award: Graduated with Honors
-#    - award: STAR Advanced Computer Science Award
-#    - award: Coronet Award in Business Education and Computer Science
-#    - award: Track & Field JV MVP
-#  summary:
+- degree: "Class XII"
+  uni: "DonBosco Matriculation School, Chennai"
+  year: "2022"
+  summary: "Percentage: 79.1%"
+
+- degree: "Class X"
+  uni: "HolyCross Matriculation School, Salem"
+  year: "2020"
+  summary: "Percentage: 91.2%"

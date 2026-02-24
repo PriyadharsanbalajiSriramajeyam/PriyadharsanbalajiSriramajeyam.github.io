@@ -1,26 +1,16 @@
-[]
-# - company: Immerso.ai
-#   summary: "Machine Learning Engineer at Immerso.ai"
-#   logo: "/img/companylogos/immerso.png"
-#   url: "https://immerso.ai"
-#   positions:
-#     - title: Deep Learning Engineer II
-#       startdate: 2024-04-01
-#       summary: "Working on state-of-the-art text-to-image and text-to-video diffusion models."
-#       projects:
-#         - "Developed high-quality image and video generation pipelines using stable diffusion and custom fine-tuning."
-#         - "Optimized image restoration models (NAFNET, UFormer, DiffIR) to enhance image quality and ground truth data for internal evaluations."
-#         - "Integrated Vision-Language Models (LLama 3.2, LLava, Molmo) with LLMs to build a custom Fishbone Analysis system for Root Cause Analysis (RCA) and Correction and Protection Analysis (CPA) using multi-modal data."
-# 
-# - company: "Healthcare Technology Innovation Center - IIT Madras"
-#   summary: "Research and innovation center at IIT Madras focused on advanced healthcare solutions leveraging robotics, AI, and medical technology."
-#   logo: "/img/companylogos/htic.png"
-#   url: "https://htic.iitm.ac.in/"
-#   positions:
-#     - title: Project Associate
-#       startdate: 2023-01-01
-#       enddate: 2024-03-31
-#       summary: "Worked on Computer Vision projects for surgical navigation and assistance."
-#       projects:
-#         - "Engineered a robust multi-camera surveillance and activity recognition system for high-security environments, integrating multiple viewpoints into a unified 3D security mesh."
-#         - "Developed real-time video summarization techniques to enhance surveillance monitoring efficiency."
+- company: "ImmersoAI (Eros International AI Research Team)"
+  summary: "Working on state-of-the-art diffusion models and distributed training."
+  url: "https://immerso.ai"
+  positions:
+    - title: "AI Research Intern"
+      startdate: "2024-06-01"
+      summary: "Working on generative AI and diffusion distillation."
+      projects:
+        - "Implemented DDPM and DDIM diffusion models with DiT-based architectures for image generation experiments."
+        - "Trained diffusion models on Eros International film image datasets capturing rich Indic cultural representations."
+        - "Applied PixArt-Sigma architectures along with EDM formulation to improve training stability, convergence, and quality."
+        - "Implemented SA-Solver and DiT-Mix inference strategies to accelerate diffusion sampling speed."
+        - "Scaled diffusion model training pipelines using Hugging Face Accelerate and Ray for efficient distributed training."
+        - "Worked extensively on diffusion distillation techniques to reduce inference steps while maintaining perceptual quality."
+        - "Explored layout-aware diffusion training approaches (MUSAR, LAMIC) to enhance structural and spatial control."
+        - "Performed actor tagging using Qwen VLM to improve text-image alignment during training."

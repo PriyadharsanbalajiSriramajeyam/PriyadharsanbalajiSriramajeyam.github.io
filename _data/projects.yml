@@ -1,20 +1,35 @@
-[]
-# - project: DIVA
-#   role: Researcher
-#   duration: Apr, 2024 — Jul, 2024
-#   description: >
-#     IndicViton - virtual try-on models for Indian clothing.
-# 
-# - project: Flare Removal for Urban Scenes
-#   role: Researcher
-#   duration: Sep, 2023 — Mar, 2024
-#   description: >
-#     Synthesized video datasets using traditional and deep learning-based methods.
-#     Experimented with multiple video-based architectures to tackle nighttime flare removal challenges.
-# 
-# - project: Virtual Tryons for Indic Clothing
-#   role: Research Assistant
-#   duration: Apr, 2024 — Jul, 2024
-#   description: >
-#     Contributed to the development of DIVA: Deep Indic Virtual Apparel Try-On, a diffusion-based virtual try-on model for Indian clothing styles.
-#     Introduced IndicViton, a high-resolution dataset specifically for Indian attire.
+- project: "Fine Tuned LLM for Story Telling in Tamil"
+  role: "Self-Project"
+  description: >
+    Fine-tuned distilgpt2 on a custom dataset using LoRA (PEFT) and Trainer API on Colab T4 GPU. 
+    Delivered a parameter-efficient Tamil LLM with 90% fewer weights, generating fluent, context-aware stories.
+
+- project: "Next Sentence Prediction (NSP)"
+  role: "Self-Project"
+  description: >
+    Built a robust BERT-based model using HuggingFace Transformers. Preprocessed and tokenized custom sentence pairs 
+    and trained using PyTorch. Achieved high sentence relationship prediction accuracy.
+
+- project: "Vizy AI"
+  role: "Self-Project"
+  description: >
+    Built a local AI-driven data visualization system using Ollama with llama3.2-vision:11b. 
+    Automated generation of visualizations (PCA, t-SNE, SOM) and used Qwen vision LLM for insights.
+
+- project: "Velocity Video Editor"
+  role: "Self-Project"
+  description: >
+    Built and deployed an image-to-video reel generation app on Hugging Face using MoviePy, OpenCV, and PIL. 
+    Engineered a CV pipeline for beat-synced effects and vertical video composition.
+
+- project: "Hybrid RAG"
+  role: "Self-Project"
+  description: >
+    Built a production-ready Hybrid RAG system combining vector search (ChromaDB) and knowledge graph reasoning (NetworkX). 
+    Supports multi-format document ingestion and entity visualization in Streamlit.
+
+- project: "HTML Modernizer"
+  role: "Self-Project"
+  description: >
+    Built an advanced LLM agent system to modernize user-generated HTML using current web design best practices. 
+    Enables low-code modernization of legacy HTML structure.
